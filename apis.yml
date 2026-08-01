@@ -1,8 +1,27 @@
 aid: peerless-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peerless-systems.png
 name: Peerless Systems
-description: Peerless Systems is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Peerless Systems Corporation is a technology company that describes itself as a
+  leader in embedded imaging solutions. Historically focused on embedded imaging and
+  printing controller technology and intellectual-property licensing for digital
+  document, printer, and multifunction-device OEMs, the company operates as a
+  corporate and licensing entity rather than a developer-facing API platform. It was
+  surfaced in the API Evangelist network as a portfolio-lead stub associated with
+  Battery Ventures; an enrichment pass found a corporate marketing website
+  (peerless.com) but no public developer portal, API documentation, SDKs, or API
+  surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/peerless-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Imaging
+- Embedded Systems
+- Printing
+- Licensing
+- Technology
+common:
+- type: DomainSecurity
+  url: security/peerless-systems-domain-security.yml
+- type: Website
+  url: https://www.peerless.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
